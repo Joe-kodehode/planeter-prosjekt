@@ -9,3 +9,7 @@ footer med namn på oss og prosjektet
 
 farge-tema: blå
 media-queries for responsiv design
+
+job 1
+joe - bilde
+sindre - navbar
