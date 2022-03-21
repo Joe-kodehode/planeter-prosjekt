@@ -32,4 +32,4 @@
 - sindre - navbar
 
 ## mockup
-!( Neptune_design.png "design")
+![design]( Neptune_design.png "design")
