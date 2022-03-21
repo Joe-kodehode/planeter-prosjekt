@@ -1,0 +1,11 @@
+
+stort bilete på toppen
+sticky navigasjons bar under bilete
+intro
+bildekarusell
+meir info
+referansar, linker til andre sider
+footer med namn på oss og prosjektet
+
+farge-tema: blå
+media-queries for responsiv design
