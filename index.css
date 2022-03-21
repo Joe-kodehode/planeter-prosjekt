@@ -5,11 +5,12 @@
 }
 
 body {
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   background: #e1ecf9;
   color: #133863;
   line-height: 1.6;
 }
+
 
 /* Header */
 header {
@@ -29,8 +30,45 @@ h1 {
   height: 100%;
 }
 
-/* Utility Classes */
 
+/* Navigation bar */
+nav {
+  background : #091d34;
+  overflow   : hidden;
+  position   : sticky;
+  top        : 0;
+}
+
+ul {
+  list-style-type : none;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  float: right;
+}
+
+li a {
+  display         : block;
+  color           : #e1ecf9;
+  padding         : 5px 10px;
+  text-align      : center;
+  text-decoration : none;
+}
+
+li a.active {
+  background: #133863;
+}
+
+li a:hover {
+  background: #609ce1;
+}
+
+
+/* Utility Classes */
 .text-light {
   color: #e1ecf9;
 }
