@@ -4,9 +4,7 @@
 - stort bilete på toppen
 - sticky navigasjons bar under bilete
 - intro
-- bildekarusell
-- meir info
-- referansar, linker til andre sider
+- hovud innhald
 - footer med namn på oss og prosjektet
 
 ## notat
@@ -22,7 +20,6 @@
 - #091D34 (darkest)
 
 ### font
-
 - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 
 ## oppgåver
