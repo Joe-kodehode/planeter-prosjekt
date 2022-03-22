@@ -110,3 +110,34 @@ p {
 img {
   width : 100%;
 }
+
+/*******************************************************************************
+*  Media Queries                                                             *
+*******************************************************************************/
+
+@media only screen and (max-width: 800px) {
+      .content {
+        flex-direction: column;
+      }
+
+      
+
+      /* .content-1 {
+        display: flex;
+        flex-direction: column-reverse;
+      } */
+
+      .content:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .content img {
+        width: 100%;
+      }
+
+      .content p {
+        width: 100%;
+      }
+  
+}
