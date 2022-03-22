@@ -16,21 +16,22 @@ body {
 *  Header                                                                      *
 *******************************************************************************/
 header {
-  background: url(img/Neptun-5.jpg) no-repeat center center/cover;
+  background: url(img/Neptune-bg.png) no-repeat center center/cover;
   
   height: 100vh;
   /* position: relative; */
 }
 
 h1 {
-  align-items     : center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display         : flex;
-  font-size       : 60px;
+  font-size       : 160px;
   font-weight     : 500;
-  height          : 100%;
   justify-content : center;
   line-height     : 1.2;
   text-align      : center;
+  padding-top: 0.7em;
+  color           : #236AB9;
 }
 
 
@@ -82,14 +83,28 @@ li a:hover {
   background: #609CE1;
 }
 
-.content p {
-  display: inline-block;
+h2 {
+  padding-top: 20px;
   text-align: center;
+  /* display: block; */
+}
+
+.description p {
+  /* display: inline-block; */
+  text-align: center;
+  
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 
 .content img {
   width: 50%;
+  height: auto;
 }
 
 /*******************************************************************************
@@ -115,12 +130,10 @@ img {
 *  Media Queries                                                             *
 *******************************************************************************/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
       .content {
         flex-direction: column;
       }
-
-      
 
       /* .content-1 {
         display: flex;
@@ -136,8 +149,9 @@ img {
         width: 100%;
       }
 
-      .content p {
+      .description {
         width: 100%;
+        margin: 5px;
       }
   
 }
