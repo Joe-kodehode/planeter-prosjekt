@@ -8,6 +8,8 @@ body {
   background  : #e1ecf9;
   color       : #133863;
   font-family : 'Space Mono';
+  /* font-family: 'IBM Plex Sans'; */
+  /* font-family: 'Roboto Serif'; */
   line-height : 1.6;
 }
 
@@ -17,21 +19,23 @@ body {
 *******************************************************************************/
 header {
   background: url(img/Neptune-bg.png) no-repeat center center/cover;
-  
   height: 100vh;
-  /* position: relative; */
 }
 
 h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color           : #236AB9;
   display         : flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Comfortaa'; */
+  /* font-family: 'Nova Round'; */
+  /* font-family: 'Orbitron'; */
+  /* font-family: 'Monoton'; */
   font-size       : 160px;
   font-weight     : 500;
   justify-content : center;
   line-height     : 1.2;
+  padding-top     : 0.7em;
   text-align      : center;
-  padding-top: 0.7em;
-  color           : #236AB9;
 }
 
 
@@ -43,6 +47,7 @@ nav {
   overflow   : hidden;
   position   : sticky;
   top        : 0;
+  /* font-family: 'Roboto Slab'; */
 }
 
 ul {
@@ -50,17 +55,17 @@ ul {
 }
 
 li {
-  float: left;
+  float : left;
 }
 
 li:last-child {
-  float: right;
+  float : right;
 }
 
 li a {
   display         : block;
   color           : #e1ecf9;
-  padding         : 5px 10px;
+  padding         : 0.5em;
   text-align      : center;
   text-decoration : none;
 }
@@ -73,96 +78,115 @@ li a:hover {
   background : #609ce1;
 }
 
+
 /*******************************************************************************
-*  Intro Section                                                                *
+*  Intro Section                                                               *
 *******************************************************************************/
 .intro p {
-  text-align: center;
-  font-size: 26px;
-  padding: 5px;
-  margin: 80px auto;
-  max-width: 700px;
+  font-size  : 26px;
+  margin     : 80px auto;
+  max-width  : 700px;
+  padding    : 5px;
+  text-align : center;
 }
+
+
+/*******************************************************************************
+*  Image Gallery                                                               *
+*******************************************************************************/
+section.gallery-container {
+  background            : #236AB9;
+  display               : grid;
+  gap                   : 1em;
+  grid-template-columns : repeat(4, auto);
+  padding               : 1em;
+}
+
+figure.gallery-frame {
+  align-items     : center;
+  background      : #133863;
+  color           : #E1ECF9;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  padding         : 1em;
+}
+
+figcaption.gallery-caption {
+  padding    : 1em 0 0 0;
+  text-align : center;
+}
+
+@media only screen and (max-width: 1200px) {
+  section.gallery-container {
+    grid-template-columns : repeat(2, auto);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.gallery-container {
+    grid-template-columns : auto;
+  }
+}
+
 
 /*******************************************************************************
 *  Main section                                                                *
 *******************************************************************************/
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #609CE1;
+  align-items     : center;
+  background      : #609CE1;
+  display         : flex;
+  justify-content : center;
 }
 
 h2 {
-  padding-top: 20px;
-  text-align: center;
-  /* display: block; */
+  padding-top : 20px;
+  text-align  : center;
+  /* font-family: 'Roboto Slab'; */
 }
 
 .description p {
-  /* display: inline-block; */
-  text-align: center;
-  
-  padding: 10px;
+  padding    : 10px;
+  text-align : center;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+  display        : flex;
+  flex-direction : column;
+  width          : 50%;
 }
 
 .content img {
-  width: 50%;
-  height: auto;
+  height : auto;
+  width  : 50%;
 }
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    flex-direction : column;
+  }
+
+  .content:nth-child(even) {
+    display        : flex;
+    flex-direction : column-reverse;
+  }
+
+  .content img {
+    width : 100%;
+  }
+
+  .description {
+    margin : 5px;
+    width  : 100%;
+  }
+}
+
 
 /*******************************************************************************
 *  Utility Classes                                                             *
 *******************************************************************************/
-.text-light {
-  color : #e1ecf9;
-}
-
-.text-dark {
-  color : #091d34;
-}
-
-p {
-  margin : 10px;
-}
-
-img {
-  width : 100%;
-}
-
-/*******************************************************************************
-*  Media Queries                                                             *
-*******************************************************************************/
-
-@media only screen and (max-width: 1200px) {
-      .content {
-        flex-direction: column;
-      }
-
-      /* .content-1 {
-        display: flex;
-        flex-direction: column-reverse;
-      } */
-
-      .content:nth-child(even) {
-        display: flex;
-        flex-direction: column-reverse;
-      }
-
-      .content img {
-        width: 100%;
-      }
-
-      .description {
-        width: 100%;
-        margin: 5px;
-      }
-  
-}
+.text-light { color  : #e1ecf9; }
+.text-dark  { color  : #091d34; }
+p           { margin : 10px;      }
+img         { width  : 100%;      }

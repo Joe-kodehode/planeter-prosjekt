@@ -12,23 +12,21 @@
 - media-queries for responsiv design
 - sans-serif
 
-## colours
+## fargar
 - #E1ECF9 (lightest)
 - #609CE1 (ligther)
 - #236AB9 (normal blue)
 - #133863 (darker)
 - #091D34 (darkest)
 
-### font
+## font
 - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 
 ## oppgåver
-
-### todo
 - [x] hero bilde (joe)
 - [x] navbar, sticky (sindre)
 - [ ] navbar, dropdown (sindre)
-- [ ] bilder mellom intro og hovud seksjonen (sindre)
+- [x] bilder galleri (sindre)
 - [ ] hovud seksjonen (joe)
 
 ## mockup
