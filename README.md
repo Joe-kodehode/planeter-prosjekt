@@ -24,9 +24,12 @@
 
 ## oppgåver
 
-### job 1
-- joe - bilde
-- sindre - navbar
+### todo
+- [x] hero bilde (joe)
+- [x] navbar, sticky (sindre)
+- [] navbar, dropdown (sindre)
+- [] bilder mellom intro og hovud seksjonen (sindre)
+- [] hovud seksjonen (joe)
 
 ## mockup
 ![design]( Neptune_design.png "design")
