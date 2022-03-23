@@ -4,33 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space Mono" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM Plex Sans" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nova Round" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Serif" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab" />
-    <link rel="stylesheet" href="index.css" />
+
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nova Round"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto Serif"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto Slab"
+    />
+
     <title>Neptun</title>
   </head>
   <body>
 
-    <header>
+
+<!----------------------------------------------------------------------------\
+|    Title                                                                    |
+\----------------------------------------------------------------------------->
+    <header id="home">
       <h1>Neptun</h1>
     </header>
 
+
+<!----------------------------------------------------------------------------\
+|    Navigation Tab                                                           |
+\----------------------------------------------------------------------------->
     <nav>
       <ul>
-        <li><a class="active" href="#section-1">HOME</a></li>
-        <li><a href="#section-2">INTRO</a></li>
-        <li><a href="#section-3">GALLERY</a></li>
-        <li><a href="#section-4">CONTENT</a></li>
-        <li><a href="#section-4">ABOUT</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#intro">INTRO</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#content">CONTENT</a></li>
+        <li><a href="#about">ABOUT</a></li>
       </ul>
     </nav>
 
+
+<!----------------------------------------------------------------------------\
+|    Intro Section                                                            |
+\----------------------------------------------------------------------------->
     <main>
       <section class="intro">
         <p>
@@ -43,26 +64,34 @@
         </p>
       </section>
 
-      <section class="gallery-container">
+
+<!----------------------------------------------------------------------------\
+|    Image Gallery                                                            |
+\----------------------------------------------------------------------------->
+      <section id="gallery" class="gallery-container">
         <figure class="gallery-frame">
           <img class="gallery-image" src="img/Neptune-1.jpg" alt="neptune" />
           <figcaption class="gallery-caption">Neptun</figcaption>
         </figure>
         <figure class="gallery-frame">
-          <img class="gallery-image" src="img/Neptune-2.webp" alt="neptune" />
+          <img class="gallery-image" src="img/Neptune-1.jpg" alt="neptune" />
           <figcaption class="gallery-caption">Neptun</figcaption>
         </figure>
         <figure class="gallery-frame">
-          <img class="gallery-image" src="img/Neptune-3.webp" alt="neptune" />
+          <img class="gallery-image" src="img/Neptune-1.jpg" alt="neptune" />
           <figcaption class="gallery-caption">Neptun</figcaption>
         </figure>
         <figure class="gallery-frame">
-          <img class="gallery-image" src="img/Neptune-4.jpg" alt="neptune" />
+          <img class="gallery-image" src="img/Neptune-1.jpg" alt="neptune" />
           <figcaption class="gallery-caption">Neptun</figcaption>
         </figure>
       </section>
 
-      <section class="content">
+
+<!----------------------------------------------------------------------------\
+|    Main Content                                                             |
+\----------------------------------------------------------------------------->
+      <section id="content" class="content">
         <div class="description">
           <h2>Bane og rotasjon</h2>
           <p>
@@ -76,11 +105,11 @@
             dette skjedde var i årene 1979–1999.
           </p>
         </div>
-        <img src="img/Neptune-2.webp" alt="neptune" width="100" />
+        <img src="img/Neptune-2.webp" alt="neptune" />
       </section>
 
       <section class="content">
-        <img src="img/Neptune-2.webp" alt="neptune" width="100" />
+        <img src="img/Neptune-2.webp" alt="neptune" />
         <div class="description">
           <h2>Oppbygning</h2>
           <p>
@@ -110,11 +139,11 @@
             steder på planeten.
           </p>
         </div>
-        <img src="img/Neptune-5.jpg" alt="neptune" width="100" />
+        <img src="img/Neptune-5.jpg" alt="neptune" />
       </section>
 
       <section class="content">
-        <img src="img/Neptune-6.jpg" alt="neptune" width="100" />
+        <img src="img/Neptune-6.jpg" alt="neptune" />
         <div class="description">
           <h2>Måner og ringer</h2>
           <p>
@@ -128,10 +157,13 @@
       </section>
     </main>
 
-    <footer>
+<!----------------------------------------------------------------------------\
+|    About Tab                                                                |
+\----------------------------------------------------------------------------->
+    <footer id="about">
       <p>GITHUB:</p>
-      <a href="github.com/sindre-kodehode">Sindre</a>
-      <a href="github.com/joe-kodehode">Joe</a>
+      <a href="https://github.com/sindre-kodehode">SINDRE</a>
+      <a href="https://github.com/joe-kodehode">JOE</a>
       <p class="test">&copy;Kodehode</p>
     </footer>
 

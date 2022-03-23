@@ -8,26 +8,35 @@
 - footer med namn på oss og prosjektet
 
 ## notat
-- farge-tema: blå
+- farge-tema: blå, monochrome
 - media-queries for responsiv design
-- sans-serif
+- serif font til vanleg tekst
 
 ## fargar
-- #E1ECF9 (lightest)
-- #609CE1 (ligther)
-- #236AB9 (normal blue)
+- #e1ecf9 (lightest)
+- #609ce1 (ligther)
+- #236ab9 (normal blue)
 - #133863 (darker)
-- #091D34 (darkest)
+- #091d34 (darkest)
 
 ## font
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Hero bilete: [Nova Round](https://fonts.google.com/specimen/Nova+Round)
+- Vanleg tekst: [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif)
+- Overskrifter: [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
 
 ## oppgåver
 - [x] hero bilde (joe)
 - [x] navbar, sticky (sindre)
 - [ ] navbar, dropdown (sindre)
 - [x] bilder galleri (sindre)
-- [ ] hovud seksjonen (joe)
+- [x] finne bileter og text til hovud seksjonen (joe)
+- [x] hovud seksjonen (joe)
+- [x] footer (joe)
+
+## referansar
+- tekst er henta frå Store norske leksikon
+- fargar henta frå w3schools
+- fontar frå Google Fonts
 
 ## mockup
 ![design]( Neptune_design.png "design")
