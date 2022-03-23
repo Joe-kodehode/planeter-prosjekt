@@ -13,6 +13,10 @@ body {
   line-height : 1.6;
 }
 
+p           { margin : 10px;      }
+
+img         { width  : 100%;      }
+
 
 /*******************************************************************************
 *  Header                                                                      *
@@ -165,11 +169,39 @@ h2 {
   }
 }
 
+/*******************************************************************************
+*  Footer                                                             *
+*******************************************************************************/
+footer {
+background : #091d34;
+overflow   : hidden;
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+color: #609CE1;
+/* align-items: center; */
+
+}
+
+.test {
+  justify-self: flex-start;
+  background: red;
+}
+
+footer a {
+  /* margin: 0 0.5em; */
+  text-decoration: none;
+  color: #236AB9;
+}
+
+footer p, a {
+  padding: 0.5em;
+  margin: 0;
+}
 
 /*******************************************************************************
 *  Utility Classes                                                             *
 *******************************************************************************/
 .text-light { color  : #e1ecf9; }
 .text-dark  { color  : #091d34; }
-p           { margin : 10px;      }
-img         { width  : 100%;      }
+
