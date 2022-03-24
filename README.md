@@ -27,7 +27,7 @@
 ## oppgåver
 - [x] hero bilde (joe)
 - [x] navbar, sticky (sindre)
-- [ ] navbar, dropdown (sindre)
+- [x] navbar, dropdown (sindre)
 - [x] bilder galleri (sindre)
 - [x] finne bileter og text til hovud seksjonen (joe)
 - [x] hovud seksjonen (joe)
